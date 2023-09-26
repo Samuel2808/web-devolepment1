@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+#logo{
+    width: 100px;
+}
+
+#container{
+    display: flex;
+    
+}
+
+html{
+    background-image: url("https://wallpapers.com/images/hd/tree-on-green-lake-1519g7y2yexhnyvl.jpg");
+    font-family: 'Nunito', sans-serif;
+}
+
+#titulo{
+    text-align: center;
+
+    color: black;
+    
+}
+
+#homebutton{
+    text-decoration: none;
+    color: white;
+    
+}
+
+#btnHome{
+    background-color: black;
+}
+
+#titulo2 { 
+    text-align: center;
+}
+
+#me2{
+    width: 600px;
+}
+
+#fav{
+    text-align: center;
+}
+
+#alask{
+    width: 300px;
+
+}
+
+#pap{
+    width: 600px;
+}
+
+#maill{
+    width: 300px;
+}
+
+#men{
+    width: 280px;
+}
