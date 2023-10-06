@@ -1,30 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samuel Santana</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./main.js"></script>
+    <link rel="shortcut icon" type="image/png" href="images/favicon2.png">
 </head>
+
 <body>
-    <img id="logo" src="images/logo2.0.png" alt="website logo"/>
-    <hr/>
-    <b>Main contents</b>
-   
-        <ul>
-           
-            <li><a href="#">Fan site</a></li>
-            <li><a href="#">Survey</a></li>
-            <li><a href="#">App</a></li>
-            <li><a href="#">Final</a></li>
-            <li><a href="Favorite.html">Favorite</a></li>
-        </ul>
-        <b>Other contents</b>
-        <ul>
-            
-            <li><a href="about.html">About me</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-        </ul>
-    <hr/>
+    <img id="logo" src="images/logo2.0.png" alt="website logo" />
+    <h1>Hello World!</h1>
+
+    <h1 id="titulo">ABOUT ME</h1>
+    <hr>
+    <p>Hello, Welcome to my first web site page. My name is Samuel Santana. I am a 20-year-old student studying programming at Columbia College of Chicago. It's my first year of college and I hope to complete all of them here at Columbia. I hope to specialize in the programming area since it is something that I like and I am really passionate about. I plan to continue my studies after being at Columbia in the UK</p>
+<hr>
+    <img id="me2" src="images/newme1.JPG" alt="">
+
+
+    <div>
+        
+        <select class="test" name="prueba1" id="prueba1">
+            <option value="#">==About me==</option>
+            <option value="" class="item">==Fan Site==</option>
+            <option value="" class="item">==Survey==</option>
+            <option value="" class="item">==App==</option>
+            <option value="" class="item">==Final==</option>
+            <option value="Contact.html" class="item">==Contact==</option>
+            <option value="Favorite.html" class="item">==Favorite==</option>
+        </select>
+    </div>
+    
+    <script type ="text/javascript">
+        var urlMenu = document.getElementById('prueba1');
+        urlMenu.onchange = function()
+        {
+        var userOption = this.options[this.selectedIndex];
+        if (userOption.value != "nothing")
+        {
+        window.open(userOption.value, "HTML CSS javascript", "");
+        }
+        
+        }
+        
+    </script>  
+
 </body>
+
 </html>
