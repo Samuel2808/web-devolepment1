@@ -189,12 +189,13 @@ background: #000000;
   
   }
   .FanText1{
-    text-align: center;
-    margin-right: 750px;
+    text-align: justify;
+    margin-right: 900px;
+    margin-left: 300px;
   }
   .sttitle{
     font-weight: 500px;
-    margin-left: 500px;
+    margin-left: 550px;
     font-size: 60px;
     text-decoration: underline;
     text-decoration-color: #ff93db;
@@ -289,4 +290,7 @@ margin-left: 100px;
     font-size: 60px;
     text-decoration: underline;
     text-decoration-color: #ff93db;
+}
+.practica{
+    width: 100px;
 }
