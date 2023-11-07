@@ -12,62 +12,58 @@
 </head>
 
 <body class="mainPage">
-    
 
-        <div class="search-bar">
-            <div class="menu">
-                <ul>
-                    <li><a class="active"href="index.html">Home</a></li>
-                    <li><a href="#">About me</a></li>
-                    <li><a href="survey.html">Survey</a></li>
-                    <li><a href="Favorite.html">Favorite</a></li>
-                    <div class="drup">
-                        <a href="FanSite.html"><button class="boton active"> FanSite 
-    
+
+    <div class="search-bar">
+        <div class="menu">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="survey.html">Survey</a></li>
+                <li><a href="Favorite.html">Favorite</a></li>
+                <div class="drup">
+                    <a href="FanSite.html"><button class="boton active"> FanSite
                         </button>
-                        </a>
-                        <div class="dup-content ">
-                            <a href="Movies.html">Movies</a>
-                            <a href="Awards.html">Awards</a>
-                            <a href="FunFacts.html">Fun Facts</a>
-                        </div>
+                    </a>
+                    <div class="dup-content ">
+                        <a href="Movies.html">Movies</a>
+                        <a href="Awards.html">Awards</a>
+                        <a href="FunFacts.html">Fun Facts</a>
                     </div>
-    
-                    <li><a href="#">Final</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <div class="search-box">
-                <input type="text" class="tbox" placeholder="Search.." />
-                <button class="btnn"><i class="fa-solid fa-magnifying-glass fa-beat"></i></button>
-            </div>
+                </div>
+
+
+                <li><a href="#">Final</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
         </div>
-
-    <img id="logo" src="images/S-400.png" alt="website logo" />
-    <h1>Hello World!</h1>
-
-    <h1 id="titulo">ABOUT ME</h1>
-    <hr>
-    <p>Hello, Welcome to my first web site page. My name is Samuel Santana. I am a 20-year-old student studying programming at Columbia College of Chicago. It's my first year of college and I hope to complete all of them here at Columbia. I hope to specialize in the programming area since it is something that I like and I am really passionate about. I plan to continue my studies after being at Columbia in the UK.</p>
-<hr>
-    <img id="me2" src="images/newme1.JPG" alt="">
+        <div class="search-box">
+            <form action="https://google.com/search" method="get">
+                <input type="text" class="tbox" placeholder="Search.." name="q" />
+                <button class="btnn" type="submit"><i class="fa-solid fa-magnifying-glass fa-beat"></i></button>
+            </form>
+        </div>
+    </div>
 
 
-    
-    
-    <script type ="text/javascript">
+    <h1 class="sttitle4">Hello World! <br> WECOLME TO MY WEB SITE </h1>
+
+
+
+
+
+
+    <script type="text/javascript">
         var urlMenu = document.getElementById('prueba1');
-        urlMenu.onchange = function()
-        {
-        var userOption = this.options[this.selectedIndex];
-        if (userOption.value != "nothing")
-        {
-        window.open(userOption.value, "HTML CSS javascript", "");
+        urlMenu.onchange = function () {
+            var userOption = this.options[this.selectedIndex];
+            if (userOption.value != "nothing") {
+                window.open(userOption.value, "HTML CSS javascript", "");
+            }
+
         }
-        
-        }
-        
-    </script>  
+
+    </script>
 
 </body>
 

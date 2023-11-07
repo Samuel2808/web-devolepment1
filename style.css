@@ -643,3 +643,31 @@ color: #000000;
 .randomcont h1{
     text-align: center;
 }
+
+.ABT{
+    background-image: url(images/ABB.png);
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.sttitle3{
+    font-weight: 500px;
+   text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-color: #ff93db;
+    margin-bottom: 3rem;
+}
+.ABTxT{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.sttitle4{
+    font-weight: 500px;
+   text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-color: #ff93db;
+    margin-top: 16rem;
+}
